@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="theme_large" parent="AppTheme">
+        <item name="title_textSize">18sp</item>
+        <item name="textSize_32">32sp</item>
+        <item name="textSize_20">20sp</item>
+        <item name="textSize_19">19sp</item>
+        <item name="textSize_18">18sp</item>
+        <item name="textSize_17">17sp</item>
+        <item name="textSize_16">16sp</item>
+        <item name="textSize_15">15sp</item>
+        <item name="textSize_14">14sp</item>
+        <item name="textSize_13">13sp</item>
+        <item name="textSize_12">12sp</item>
+        <item name="textSize_11">11sp</item>
+        <item name="textSize_10">10sp</item>
+
+        <item name="margin_20">20dp</item>
+        <item name="margin_15">15dp</item>
+        <item name="margin_12">12dp</item>
+        <item name="margin_10">10dp</item>
+        <item name="margin_5">5dp</item>
+    </style>
+
+
+    <style name="theme_small" parent="AppTheme">
+        <item name="title_textSize">16sp</item>
+        <item name="textSize_20">18sp</item>
+        <item name="textSize_32">30sp</item>
+        <item name="textSize_19">17sp</item>
+        <item name="textSize_18">16sp</item>
+        <item name="textSize_17">15sp</item>
+        <item name="textSize_16">14sp</item>
+        <item name="textSize_15">13sp</item>
+        <item name="textSize_14">12sp</item>
+        <item name="textSize_13">11sp</item>
+        <item name="textSize_12">10sp</item>
+        <item name="textSize_11">9sp</item>
+        <item name="textSize_10">8sp</item>
+
+        <!--<item name="margin_20">18dp</item>-->
+        <!--<item name="margin_15">12dp</item>-->
+        <!--<item name="margin_12">10dp</item>-->
+        <!--<item name="margin_10">8dp</item>-->
+        <!--<item name="margin_5">3dp</item>-->
+        <item name="margin_20">20dp</item>
+        <item name="margin_15">15dp</item>
+        <item name="margin_12">12dp</item>
+        <item name="margin_10">10dp</item>
+        <item name="margin_5">5dp</item>
+    </style>
+
+
+</resources>

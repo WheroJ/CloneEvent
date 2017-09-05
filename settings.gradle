@@ -1,0 +1,4 @@
+include ':app'
+include ':Core'
+project(':Core').projectDir = new File('../Core/')
+include ':Core:coremodule'

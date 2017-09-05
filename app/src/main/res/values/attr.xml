@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="mStyle">
+        <attr name="title_textSize" format="dimension" />
+        <attr name="textSize_32" format="dimension" />
+        <attr name="textSize_20" format="dimension" />
+        <attr name="textSize_19" format="dimension" />
+        <attr name="textSize_18" format="dimension" />
+        <attr name="textSize_17" format="dimension" />
+        <attr name="textSize_16" format="dimension" />
+        <attr name="textSize_15" format="dimension" />
+        <attr name="textSize_14" format="dimension" />
+        <attr name="textSize_13" format="dimension" />
+        <attr name="textSize_12" format="dimension" />
+        <attr name="textSize_11" format="dimension" />
+        <attr name="textSize_10" format="dimension" />
+
+        <attr name="margin_20" format="dimension" />
+        <attr name="margin_15" format="dimension" />
+        <attr name="margin_12" format="dimension" />
+        <attr name="margin_10" format="dimension" />
+        <attr name="margin_5" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="BorderImageView">
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="borderColor" format="color"/>
+    </declare-styleable>
+
+</resources>
