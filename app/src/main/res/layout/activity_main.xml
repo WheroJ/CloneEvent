@@ -47,13 +47,13 @@
         android:orientation="horizontal"
         android:visibility="gone">
 
-        <com.github.wheroj.cloneevent.widget.BorderImageView
+        <!--<com.github.wheroj.cloneevent.widget.BorderImageView
             android:id="@+id/imageViewChar"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             app:borderColor="@color/main_color"
-            app:borderWidth="3dp" />
+            app:borderWidth="3dp" />-->
 
         <RelativeLayout
             android:layout_width="0dp"
@@ -62,7 +62,7 @@
             android:background="@color/main_color">
 
             <android.support.v7.widget.RecyclerView
-                android:id="@+id/recyclerViewChar"
+                android:id="@+id/recyclerViewCharClone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -70,7 +70,22 @@
                 android:background="@color/white"
                 android:visibility="visible" />
         </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/main_color"
+            android:visibility="visible">
 
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewCharWrite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:background="@color/white"
+                android:visibility="visible" />
+        </RelativeLayout>
     </LinearLayout>
 
     <com.github.wheroj.cloneevent.widget.DrawBoard
@@ -99,7 +114,7 @@
             android:gravity="center">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btn_clear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
